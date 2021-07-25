@@ -13,7 +13,7 @@ body {
 
 .formContainer {
     margin: auto;
-    margin-top: 50px;
+    margin-top: 30px;
     max-width: 400px;
     width: 100%;
     background-color: white;
@@ -33,7 +33,7 @@ body {
 .svgContainer {
     margin: auto;
     margin-top: 30px;
-    max-width: 500px;
+    max-width: 450px;
 }
 
 #svg {
