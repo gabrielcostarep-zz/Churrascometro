@@ -1,7 +1,7 @@
 # 🚧 Página em Construção 🚧
 🍖 Exemplo de uma página para calcular quantidades de itens para um churrasco
 
-Acesse a página [Clicando Aqui](https://gabrielcostarep.github.io/Churrascometro/index.html)
+➡️ [Acesse a página clicando aqui](https://gabrielcostarep.github.io/Churrascometro/index.html) ⬅️
 <!-- 
  <div align="center" >
   <img src="./Readme-cell-gif.gif" alt="demo-mobile" height="425">
