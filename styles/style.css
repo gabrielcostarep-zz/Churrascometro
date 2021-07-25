@@ -54,6 +54,7 @@ button {
     background-color: #EC5D7A;
     border-color: #EC5D7A;
     color: white;
+    margin-bottom: 40px;
 }
 
 input:hover {
@@ -84,6 +85,10 @@ input:focus {
     }
 
     input {
+        font-size: 14px;
+    }
+
+    #resultado p {
         font-size: 14px;
     }
 }
