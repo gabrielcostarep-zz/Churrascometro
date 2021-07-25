@@ -40,7 +40,7 @@ body {
     width: 100%;
 }
 
-input {
+input, button {
     width: 100%;
     padding: 8px;
     margin-bottom: 15px;
@@ -49,7 +49,7 @@ input {
     font-size: 16px;
 }
 
-input[type= "submit"] {
+button {
     cursor: pointer;
     background-color: #EC5D7A;
     border-color: #EC5D7A;
@@ -63,6 +63,15 @@ input:hover {
 input:focus {
     outline: 0;
     border-color: #EC5D7A;
+}
+
+#resultado p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#resultado img {
+    width: 30px;
 }
 
 @media screen and (max-width: 500px) {

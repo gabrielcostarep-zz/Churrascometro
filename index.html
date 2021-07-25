@@ -13,20 +13,19 @@
 <body>
     <div class="formContainer">
         <h1>Churrascômetro</h1>
-        <form action="">
+        <form>
             <input type="number" id="adultos" name="adultos" placeholder="Quantidade de Adultos" min="0">
             <input type="number" id="criancas" name="criancas" placeholder="Quantidade de Crianças" min="0">
             <input type="number" id="duracao" name="duracao" placeholder="Duração em horas" min="1">
-            <input type="submit" id="calcular" value="Calcular" onclick="calcular()">
+            <button onclick="calcular()">Calcular</button>
         </form>
         <div id="resultado">
-
         </div>
     </div>
     <div class="svgContainer">
         <img id="svg" src="./assets/barbecue.svg" alt="barbecue">
     </div>
-    <script src="./scripts/script.js"></script>
+    <script src="./scripts/script.js" defer></script>
 </body>
 
 </html>
