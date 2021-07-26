@@ -70,11 +70,6 @@ input:focus {
     margin-bottom: 5px;
 }
 
-#resultado img {
-    height: 30px;
-    margin-right: 5px;
-}
-
 @media screen and (max-width: 500px) {
     .formContainer {
         padding: 30px;
