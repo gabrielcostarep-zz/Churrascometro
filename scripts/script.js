@@ -43,5 +43,5 @@ function calcular() {
 
     resultado.innerHTML += `<p>🍺 ${Math.ceil(quantTotalCervejas / 355)} latas de cerveja (355ml)</p>`
 
-    resultado.innerHTML += `<p>🥤 ${Math.ceil(quantTotalBebidas / 2000)} Garrafas de Bebidas (2 litros)</p>`
+    resultado.innerHTML += `<p>🍾 ${Math.ceil(quantTotalBebidas / 2000)} Garrafas de Bebidas (2 litros)</p>`
 }
