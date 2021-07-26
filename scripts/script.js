@@ -22,9 +22,9 @@ function cervejaIndividual(duracao) {
 
 function bebidaIndividual(duracao) {
     if (duracao >= 6) {
-        return 1500;
+        return 2300;
     } else {
-        return 1000;
+        return 1500;
     }
 }
 
@@ -37,21 +37,11 @@ function calcular() {
     let quantTotalCervejas = cervejaIndividual(duracao) * adultos;
     let quantTotalBebidas = bebidaIndividual(duracao) * adultos + (bebidaIndividual(duracao) / 2 * criancas);
 
-    resultado.innerHTML =
-        `<p>
-            <img src="../assets/carne.svg">
-            ${quantTotalCarnes / 1000} Kg de Carne
-        </p>`;
 
-    resultado.innerHTML +=
-        `<p>
-            <img src="../assets/cerveja.svg">
-            ${Math.ceil(quantTotalCervejas / 355)} Latas de Cerveja (355 ml)
-        </p>`;
+    quantTotalCarnes / 1000 >= 1 ?
+        resultado.innerHTML = `<p>🥩 ${quantTotalCarnes / 1000} Kg de carne</p>` : resultado.innerHTML = `<p>🥩 ${quantTotalCarnes}g de Carne</p>`
 
-    resultado.innerHTML +=
-        `<p>
-            <img src="../assets/bebida.svg">
-            ${Math.ceil(quantTotalBebidas / 2000)} Garrafas de Bebidas (2 litros)
-        </p>`;
+    resultado.innerHTML += `<p>🍺 ${Math.ceil(quantTotalCervejas / 355)} latas de cerveja (355ml)</p>`
+
+    resultado.innerHTML += `<p>🥤 ${Math.ceil(quantTotalBebidas / 2000)} Garrafas de Bebidas (2 litros)</p>`
 }

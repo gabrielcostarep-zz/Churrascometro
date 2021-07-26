@@ -71,7 +71,8 @@ input:focus {
 }
 
 #resultado img {
-    width: 30px;
+    height: 30px;
+    margin-right: 5px;
 }
 
 @media screen and (max-width: 500px) {
