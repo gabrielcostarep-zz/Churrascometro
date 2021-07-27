@@ -5,32 +5,26 @@ let inputDuracao = document.getElementById("duracao");
 let resultado = document.getElementById("resultado");
 
 function carneIndividual(duracao) {
-    if (duracao >= 1) {
-        return 450;
-    } else if (duracao >= 3) {
-        return 550;
-    } else if (duracao >= 5) {
+    if (duracao >= 6) {
         return 650;
+    } else {
+        return 400;
     }
 }
 
 function cervejaIndividual(duracao) {
-    if (duracao >= 1) {
-        return 1200;
-    } else if (duracao >= 3) {
-        return 1600;
-    } else if (duracao >= 5) {
+    if (duracao >= 6) {
         return 2000;
+    } else {
+        return 1200;
     }
 }
 
 function bebidaIndividual(duracao) {
-    if (duracao >= 1) {
-        return 1500;
-    } else if (duracao >= 3) {
-        return 2000;
-    } else if (duracao >= 6) {
+    if (duracao >= 6) {
         return 2300;
+    } else {
+        return 1500;
     }
 }
 
