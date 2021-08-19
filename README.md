@@ -3,7 +3,7 @@
 ➡️ [Acesse a página clicando aqui](https://gabrielcostarep.github.io/Churrascometro/index.html) ⬅️
 
  <div align="center" >
-  <img src="./Readme-gif.gif" alt="demo-web" height="425">
+  <img src="./Readme-gif.gif" alt="demo-web" width="1000em">
 </div>
 
 ## 🚀 Tecnologias
